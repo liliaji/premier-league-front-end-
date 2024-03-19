@@ -19,7 +19,7 @@ function Teams() {
       <h1>All the Teams!</h1>
       <div className="teams-container">
         {
-          teams.map((team) => (
+          teams?.length > 0 && teams.map((team) => (
             <Team team={team} key={team._id} />
           ))
         }

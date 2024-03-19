@@ -6,3 +6,41 @@
     margin-top: 20px;
     font-size: 100px;
   } 
+
+  .team-banner {
+    height: 150px;
+    width: 150px;
+  }
+
+  .teams-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  nav {
+     display: flex;
+     justify-content: space-between; 
+     font-size: 50px;
+  }
+
+  .plimage {
+    width: 100%;
+  }
+
+  .clubdetail {
+    width: 150px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  input, button {
+    margin: 10px;
+    max-width: 50%;
+    border: 5px solid black;
+  }

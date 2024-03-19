@@ -36,7 +36,7 @@ export const editTeam = async (id, teamData) => {
   }
 };
 
-export const deleteCat = async (id) => {
+export const deleteTeam = async (id) => {
   try {
     const response = await api.delete(`/teams/${id}`);
     return response.data;
